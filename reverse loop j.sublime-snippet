@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+for (int j = ${1:n-1}; j >= ${2:0}; j--) 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rofj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

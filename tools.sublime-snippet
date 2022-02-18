@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+#ifndef ONLINE_JUDGE
+    cout << "__________________________\n";
+#endif
+#ifndef ONLINE_JUDGE
+ 	cout << "\n" << "finished in " << clock() * 1.0 / CLOCKS_PER_SEC << " sec" << endl;
+#endif
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tools</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

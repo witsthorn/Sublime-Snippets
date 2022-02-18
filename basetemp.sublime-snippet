@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+ 
+#define pb push_back
+#define z(x) ((int)(x).size())
+#define bg begin()
+#define ed end()
+#define int long long
+
+template<typename T> 
+istream& operator>>(istream &istream, vector<T> &v) { for (auto &it : v) { cin >> it; } return istream; }
+
+template<typename T>
+ostream& operator<<(ostream &ostream, const vector<T> &c) { for (auto &it : c) { cout << it << " "; } return ostream; }
+
+template <typename T> void print(T &&t)  { cout << t << "\n"; }
+template <typename T, typename... Args> void print(T &&t, Args &&... args) { cout << t << " "; print(forward<Args>(args)...); }
+
+//===============================================================================================================================
+
+void solve() {${1:}}
+
+signed main()
+{
+	ios::sync_with_stdio(false); 
+	cin.tie(nullptr);
+	#ifndef ONLINE_JUDGE
+	freopen("inputf.in", "r", stdin);
+	#endif
+
+	int T;
+	cin >> T;
+	while (T--) 
+		solve();
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mytemp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
